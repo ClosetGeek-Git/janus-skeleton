@@ -1,0 +1,27 @@
+# Autotools generated files
+/Makefile
+/Makefile.in
+/aclocal.m4
+/autom4te.cache/
+/compile
+/config.guess
+/config.log
+/config.status
+/config.sub
+/configure
+/depcomp
+/libtool
+/ltmain.sh
+/m4/
+/missing
+*.o
+*.lo
+*.la
+.libs/
+.deps/
+/events/Makefile
+/events/Makefile.in
+/plugins/Makefile
+/plugins/Makefile.in
+/transports/Makefile
+/transports/Makefile.in
