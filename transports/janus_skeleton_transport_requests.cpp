@@ -28,7 +28,7 @@ json_t *janus_skeletontran_query_transport(json_t *request) {
         
         if(!strcasecmp(request_text, "configure"))
         {
-            // DO CONFIG SHIT HERE
+            // TODO: Implement configuration handling
         
         } else {
             JANUS_LOG(LOG_VERB, "Unknown request '%s'\n", request_text);

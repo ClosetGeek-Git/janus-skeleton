@@ -93,7 +93,6 @@ int janus_skeletontran_init(janus_transport_callbacks *callback, const char *con
         g_atomic_int_set(&initialized, 0);
         g_atomic_int_set(&stopping, 1);
         /* If we got here, something went wrong */
-        success = FALSE;
 
         if(client.ts != NULL)
         {
@@ -110,7 +109,6 @@ int janus_skeletontran_init(janus_transport_callbacks *callback, const char *con
         
     }
 
-	g_atomic_int_set(&initialized, 1);
 	JANUS_LOG(LOG_INFO, "%s initialized!\n", JANUS_SKELETONTRAN_NAME);
 
     return 0;
